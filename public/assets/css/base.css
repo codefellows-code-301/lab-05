@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -144,11 +144,12 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+		/* position: absolute; */
 	}
 
-		header > p {
-			margin: 1em 0 0 0;
-		}
+	header > p {
+		margin: 1em 0 0 0;
+	}
 
 	footer {
 		margin: 2em 0 0 0;
@@ -235,3 +236,9 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+
+/* Video */
+video {
+	z-index: 0;
+	position: relative;
+}
